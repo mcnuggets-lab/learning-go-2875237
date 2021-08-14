@@ -8,6 +8,8 @@ import (
 	"strings"
 )
 
+const url = "http://services.explorecalifornia.org/json/tours.php"
+
 func main() {
 
 	resp, err := http.Get(url)
